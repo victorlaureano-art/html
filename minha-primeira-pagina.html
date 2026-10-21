@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clube Patinhas</title>
+    <meta name="description" content="Clube de cachorros fofinhos." <title>Clube Patinhas</title>
 </head>
+
 <body>
+    <header>
     <h1>Clube Patinhas</h1>
     <!--h1 é uma tag de titulo-->
     <!--um unico h1 por pagina: o assunto principal-->
     <!--existem seis niveis de titulo, do h1 ao h6-->
     <!--não se pula ordem: depois de h1, vem h2, dps h3 etc...-->
+    </header>
+    <main>
     <h2>Como cuidar</h2>
+    <p>Um cachorro saudável precisa de comida certa, água fresca, passeios e carinho.</p>
     <h3>Alimentação</h3>
-        <p>Escove os dentes <em>só com pasta para cães</em>.</p>
+    <p>Ofereça ração adequada à idade e ao porte do cão e deia sempre água limpa à disposição</p>
+    <p>Escove os dentes <em>só com pasta para cães</em>.</p>
+    <ul>
+        <li>Filhotes comem várias vezes ao dia, em porções pequenas.</li>
+        <li>Adultos costumam comer duas vezes ao dia.</li>
+        <li>Alguns alimentos humanos fazem mal aos cães: </li>
+        <ul>
+            <li>Chocolate;</li>
+            <li>Uva e uva-passa;</li>
+            <li>Cebola e alho.</li>
+        </ul>
+    </ul>
     <h3>Passeios</h3>
-        <p>Filhotes só passeiam <strong>com as vacinas em dia</strong>.</p>
+    <p>Filhotes só passeiam <strong>com as vacinas em dia</strong>.</p>
 
-        <ol>
-            <li>Pegar a guia</li>
-            <li>Passear</li>
-            <li>Dar água</li>
-        </ol>
+    <p> Passeios são importante pois gastam energia, fortalece os músculos e ajuda o cão a conviver com outras pessoas e
+        animais.</p>
+
+    <ol>
+        <li>Pegar a guia</li>
+        <li>Passear, de preferência fora dos horários mais quentes.</li>
+        <li>Dar água ao voltar para casa</li>
+    </ol>
     <h2>Raças</h2>
 
     <ul>
         <li>Beagle</li>
         <li>Poodle</li>
         <li>Vira-lata</li>
-    </ul>  
-    
+        <li>Magrelinho</li>
+    </ul>
+    <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS3RegtGRNoiz2XL4NU7qeaOWLsojgDSD28h8x4Nz5sw&s=10"
+            alt="Cachorro mais magro do mundo." height="400" width="400">
+        <figcaption>Este é o cachorro mais fino do
+            mundo.</figcaption>
+    </figure>
+
     <dl>
+
         <dt>Filhote</dt>
         <dd>Cão com menos de um ano.</dd>
     </dl>
-    <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target="_blank" rel="noopener noreferrer">Sobre cães - Wikipédia</a>
-    <img src="caramelo.jpeg" alt="Um cachorro caramelo, representante oficial">
+    <img src="caramelo.jpeg" alt="Um cachorro caramelo, representante oficial" height="300" width="300">
+    <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target="_blank" rel="noopener noreferrer">Sobre cães -
+        Wikipédia</a>
+    <h2>Passeios da semana</h2>
+    <table border="1">
+        <tr>
+            <th>Cachorro</th>
+            <th>Raça</th>
+            <th>Passeios</th>
+        </tr>
+        <tr>
+            <td>Breno</td>
+            <td>Magrelinho</td>
+            <td>67</td>
+        </tr>
+        <tr>
+            <td>caue</td>
+            <td>Vira-Lata</td>
+            <td>42</td>
+        </tr>
+    </table>
+
+    <h2>Entre em contato:</h2>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    </main>
+    <footer>
+        <p>Clube Patinhas - Site criado para fins educativos.</p>
+        <p>&copy; 2026 - Clube Patinhas. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
